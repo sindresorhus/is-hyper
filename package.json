@@ -1,0 +1,38 @@
+{
+  "name": "is-hyperterm",
+  "version": "0.0.0",
+  "description": "Check if you're running in HyperTerm",
+  "license": "MIT",
+  "repository": "sindresorhus/is-hyperterm",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "hyperterm",
+    "terminal",
+    "term",
+    "console",
+    "semver",
+    "version",
+    "check",
+    "detect"
+  ],
+  "dependencies": {
+    "semver": "^5.3.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "xo": "*"
+  }
+}
