@@ -1,33 +1,33 @@
-# is-hyperterm [![Build Status](https://travis-ci.org/sindresorhus/is-hyperterm.svg?branch=master)](https://travis-ci.org/sindresorhus/is-hyperterm)
+# is-hyper [![Build Status](https://travis-ci.org/sindresorhus/is-hyper.svg?branch=master)](https://travis-ci.org/sindresorhus/is-hyper)
 
-> Check if you're running in [HyperTerm](https://hyperterm.org)
+> Check if you're running in [Hyper](https://hyper.is)
 
 
 ## Install
 
 ```
-$ npm install --save is-hyperterm
+$ npm install --save is-hyper
 ```
 
 
 ## Usage
 
-Here running in HyperTerm 0.6.0:
+Here running in Hyper 0.7.0:
 
 ```js
-const isHyperterm = require('is-hyperterm');
+const isHyper = require('is-hyper');
 
-isHyperterm();
+isHyper();
 //=> true
 
-isHyperterm('>=0.7');
+isHyper('>=0.8');
 //=> false
 ```
 
 
 ## API
 
-### isHyperterm([semverRange])
+### isHyper([semverRange])
 
 Returns a `boolean`.
 

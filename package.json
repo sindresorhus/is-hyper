@@ -1,9 +1,9 @@
 {
-  "name": "is-hyperterm",
+  "name": "is-hyper",
   "version": "0.1.0",
-  "description": "Check if you're running in HyperTerm",
+  "description": "Check if you're running in Hyper",
   "license": "MIT",
-  "repository": "sindresorhus/is-hyperterm",
+  "repository": "sindresorhus/is-hyper",
   "author": {
     "name": "Sindre Sorhus",
     "email": "sindresorhus@gmail.com",
@@ -19,14 +19,16 @@
     "index.js"
   ],
   "keywords": [
-    "hyperterm",
+    "hyper",
+    "app",
     "terminal",
     "term",
     "console",
     "semver",
     "version",
     "check",
-    "detect"
+    "detect",
+    "hyperterm"
   ],
   "dependencies": {
     "semver": "^5.3.0"
@@ -34,5 +36,8 @@
   "devDependencies": {
     "ava": "*",
     "xo": "*"
+  },
+  "xo": {
+    "esnext": true
   }
 }

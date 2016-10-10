@@ -4,7 +4,7 @@ const semver = require('semver');
 module.exports = semverRange => {
 	const env = process.env;
 
-	if (env.TERM_PROGRAM !== 'HyperTerm') {
+	if (env.TERM_PROGRAM !== 'Hyper' && env.TERM_PROGRAM !== 'HyperTerm') {
 		return false;
 	}
 
