@@ -1,6 +1,6 @@
 {
   "name": "is-hyper",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Check if you're running in Hyper",
   "license": "MIT",
   "repository": "sindresorhus/is-hyper",
