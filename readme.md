@@ -1,4 +1,4 @@
-# is-hyper [![Build Status](https://travis-ci.org/sindresorhus/is-hyper.svg?branch=master)](https://travis-ci.org/sindresorhus/is-hyper)
+# is-hyper
 
 > Check if you're running in [Hyper](https://hyper.is)
 
