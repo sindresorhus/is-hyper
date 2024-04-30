@@ -1,7 +1,7 @@
-'use strict';
-const semver = require('semver');
+import process from 'node:process';
+import semver from 'semver';
 
-module.exports = semverRange => {
+export default function isHyper(semverRange) {
 	const {env} = process;
 
 	if (env.TERM_PROGRAM !== 'Hyper' && env.TERM_PROGRAM !== 'HyperTerm') {
@@ -13,4 +13,4 @@ module.exports = semverRange => {
 	}
 
 	return true;
-};
+}

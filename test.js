@@ -1,11 +1,12 @@
+import process from 'node:process';
 import test from 'ava';
-import m from './';
+import isHyper from './index.js';
 
-test(t => {
-	t.false(m());
+test('main', t => {
+	t.false(isHyper());
 	process.env.TERM_PROGRAM = 'Hyper';
 	process.env.TERM_PROGRAM_VERSION = '0.6.0';
-	t.true(m());
-	t.true(m('0.6.0'));
-	t.false(m('>=1'));
+	t.true(isHyper());
+	t.true(isHyper('0.6.0'));
+	t.false(isHyper('>=1'));
 });
